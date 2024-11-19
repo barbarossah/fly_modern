@@ -1,0 +1,32 @@
+.trip_card {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  padding: 0 15px;
+}
+
+.trip_card img {
+  width: 294px;
+  border-radius: 20px;
+}
+
+.trip_card_info {
+  padding: 20px 0 10px;
+}
+.trip_card_info h4 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.trip_card_info h4 + p {
+  line-height: 15.4px;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.trip_card_info p:last-child {
+  font-size: 13px;
+  color: var(--contentGray);
+  line-height: 24px;
+}

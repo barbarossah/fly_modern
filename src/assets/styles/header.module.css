@@ -1,0 +1,42 @@
+.header {
+  padding: 10px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.nav_links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav_links a {
+  padding: 8px;
+  transition: all 0.3s linear;
+}
+
+.nav_links a:hover {
+  color: var(--yellow);
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 18px;
+  align-items: center;
+}
+
+.logo p:last-child {
+  font-size: 12px;
+}
+
+.logo_icon {
+  width: 100px;
+  height: auto;
+}

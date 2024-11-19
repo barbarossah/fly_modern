@@ -1,0 +1,17 @@
+:global(.button) {
+  display: inline-block;
+  background-color: #e1ac0c;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 16px;
+  text-decoration: none;
+  border: 2px solid #e1ac0c;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+:global(.button:hover) {
+  background-color: transparent;
+  color: #e1ac0c;
+}
