@@ -9,13 +9,18 @@
 }
 
 .hero {
+  display: flex;
+  flex-direction: column;
   width: clamp(200px, 90%, 945px);
   height: 712px;
   margin: 0 auto;
 }
 
 .info {
-  padding: 213px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 .info h1 {
@@ -35,6 +40,7 @@
   padding: 15px;
   background-color: white;
   border-bottom: 4px solid var(--yellow);
+  margin-top: auto;
 }
 
 .form input {

@@ -9,6 +9,7 @@
   border: 2px solid #e1ac0c;
   transition: all 0.5s;
   cursor: pointer;
+  align-self: flex-start;
 }
 
 :global(.button:hover) {

@@ -1,0 +1,8 @@
+.section {
+  background-color: var(--backgroundGray);
+}
+.trip_cards {
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+}

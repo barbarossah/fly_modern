@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import PopularDirections from "./components/PopularDirections";
 import ObservDirections from "./components/ObservDirections";
 import OurServices from "./components/OurServices";
-import PlanYourTrip from "./components/PlanYourTrip";
+
 import Video from "./components/Video";
 import ExclusiveOffers from "./components/ExclusiveOffers";
 import GoogleMap from "./components/GoogleMap";
@@ -19,7 +19,6 @@ function App() {
       <PopularDirections />
       <ObservDirections />
       <OurServices />
-      <PlanYourTrip />
       <Video />
       <ExclusiveOffers />
       <GoogleMap />

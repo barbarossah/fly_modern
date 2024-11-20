@@ -50,7 +50,7 @@ const cardsContent = [
 
 function PopularDirections() {
   return (
-    <section className={styles.section}>
+    <section className={`section ${styles.section}`}>
       <h2>Наши популярные направления</h2>
       <p>
         Откройте для себя красоту, культуру и впечатления, которые делают эти
